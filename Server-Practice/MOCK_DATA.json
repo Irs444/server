@@ -1,0 +1,178 @@
+[
+    {
+        "id": 1,
+        "first_name": "Claudianus",
+        "last_name": "Jeannaud",
+        "email": "cjeannaud0@csmonitor.com",
+        "gender": "Male",
+        "job_title": "Speech Pathologist"
+    },
+    {
+        "id": 2,
+        "first_name": "Anallise",
+        "last_name": "Tunaclift",
+        "email": "atunaclift1@tinyurl.com",
+        "gender": "Bigender",
+        "job_title": "Physical Therapy Assistant"
+    },
+    {
+        "id": 3,
+        "first_name": "Wallis",
+        "last_name": "Maha",
+        "email": "wmaha2@who.int",
+        "gender": "Female",
+        "job_title": "Assistant Media Planner"
+    },
+    {
+        "id": 4,
+        "first_name": "Courtney",
+        "last_name": "Pitkins",
+        "email": "cpitkins3@trellian.com",
+        "gender": "Female",
+        "job_title": "Associate Professor"
+    },
+    {
+        "id": 5,
+        "first_name": "Lyssa",
+        "last_name": "McEvay",
+        "email": "lmcevay4@usnews.com",
+        "gender": "Female",
+        "job_title": "Executive Secretary"
+    },
+    {
+        "id": 6,
+        "first_name": "Michail",
+        "last_name": "Roz",
+        "email": "mroz5@deliciousdays.com",
+        "gender": "Male",
+        "job_title": "Quality Engineer"
+    },
+    {
+        "id": 7,
+        "first_name": "Beniamino",
+        "last_name": "Shutte",
+        "email": "bshutte6@sciencedaily.com",
+        "gender": "Male",
+        "job_title": "Associate Professor"
+    },
+    {
+        "id": 8,
+        "first_name": "Tonye",
+        "last_name": "Fanti",
+        "email": "tfanti7@diigo.com",
+        "gender": "Female",
+        "job_title": "Civil Engineer"
+    },
+    {
+        "id": 9,
+        "first_name": "Kermit",
+        "last_name": "Barsby",
+        "email": "kbarsby8@edublogs.org",
+        "gender": "Male",
+        "job_title": "Internal Auditor"
+    },
+    {
+        "id": 10,
+        "first_name": "Crystal",
+        "last_name": "Seccombe",
+        "email": "cseccombe9@forbes.com",
+        "gender": "Female",
+        "job_title": "Sales Associate"
+    },
+    {
+        "id": 11,
+        "first_name": "Dewain",
+        "last_name": "Bignold",
+        "email": "dbignolda@samsung.com",
+        "gender": "Male",
+        "job_title": "Structural Analysis Engineer"
+    },
+    {
+        "id": 12,
+        "first_name": "Christiane",
+        "last_name": "Gimson",
+        "email": "cgimsonb@goo.gl",
+        "gender": "Female",
+        "job_title": "Operator"
+    },
+    {
+        "id": 13,
+        "first_name": "Hattie",
+        "last_name": "Mandell",
+        "email": "hmandellc@merriam-webster.com",
+        "gender": "Non-binary",
+        "job_title": "Electrical Engineer"
+    },
+    {
+        "id": 14,
+        "first_name": "Brade",
+        "last_name": "Wickstead",
+        "email": "bwicksteadd@cdc.gov",
+        "gender": "Male",
+        "job_title": "Assistant Manager"
+    },
+    {
+        "id": 15,
+        "first_name": "Yvette",
+        "last_name": "Clothier",
+        "email": "yclothiere@intel.com",
+        "gender": "Female",
+        "job_title": "Graphic Designer"
+    },
+    {
+        "id": 16,
+        "first_name": "Hakeem",
+        "last_name": "Roscoe",
+        "email": "hroscoef@goodreads.com",
+        "gender": "Male",
+        "job_title": "Office Assistant II"
+    },
+    {
+        "id": 17,
+        "first_name": "Jorey",
+        "last_name": "Le Gall",
+        "email": "jlegallg@springer.com",
+        "gender": "Female",
+        "job_title": "General Manager"
+    },
+    {
+        "id": 18,
+        "first_name": "Culver",
+        "last_name": "Gunney",
+        "email": "cgunneyh@simplemachines.org",
+        "gender": "Male",
+        "job_title": "Senior Developer"
+    },
+    {
+        "id": 19,
+        "first_name": "Kincaid",
+        "last_name": "Kapelhof",
+        "email": "kkapelhofi@ask.com",
+        "gender": "Male",
+        "job_title": "Programmer Analyst II"
+    },
+    {
+        "id": 20,
+        "first_name": "Dewitt",
+        "last_name": "O'Lagene",
+        "email": "dolagenej@geocities.com",
+        "gender": "Male",
+        "job_title": "Biostatistician II"
+    },
+    {
+        "first_name": "Irshad",
+        "last_name": "Ansari",
+        "email": "irshad@gmail.com",
+        "gender": "Male",
+        "job_title": "Junior Developer",
+        "id": 24
+    },
+    {
+        "first_name": "Demo",
+        "last_name": "Demo",
+        "email": "demo@gmail.com",
+        "gender": "Male",
+        "job_title": "Junior Developer",
+        "id": 25
+    }
+]

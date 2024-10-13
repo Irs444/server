@@ -1,5 +1,6 @@
 const mongoose = require("mongoose")
 const express = require("express")
+const { pageSchemaModel } = require("./pages")
 const router = express.Router()
 
 const books = "books"
@@ -47,32 +48,34 @@ router.get("/api/v1/get-all-books", (req, res) => {
 // delete book API
 router.delete("/api/v1/delete-book/:id", async (req, res) => {
 
-    const existBook = await bookSchemaModel.findById(req.params.id)
-
-    if (!existBook) {
-        return res.status(400).send({
-            success: false,
-            message: "Book not found"
-        })
+    const bookId = req.params.id
+    
+    // check if any book exist for this user
+    const page = await pageSchemaModel.findOne({bookId:bookId})
+ 
+    if(page){
+     return res.status(400).send({
+         success: false,
+         message:"cannot delete book as pages are link to it."
+     })
     }
-
-    await existBook.deleteOne()
-
-        .then((result) => {
-            res.status(200).send({
-                success: true,
-                message: "Book delete successfully.",
-                result
-            })
-        }).catch((err) => {
-            res.status(500).send({
-                success: false,
-                message: 'server side error.',
-                err
-            })
-        })
-
-})
+ 
+    // if no book is exist than delete user.
+    const deleteBook = await bookSchemaModel.findByIdAndDelete(bookId)
+     
+    if(!deleteBook){
+     return res.status(400).send({
+         success:false,
+         message:"book not found."
+     })
+    }
+ 
+    res.status(200).send({
+     success: true,
+     message:'Book delete successfully.'
+    })
+    
+ })
 
 
 module.exports = { router, bookSchemaModel}

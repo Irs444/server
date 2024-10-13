@@ -6,6 +6,7 @@ const PORT = 5000
 
 const  User = require("./user")
 const {router: Book} = require("./book")
+const {router: Page} = require("./pages")
 
 // database connection
 const uri = "mongodb+srv://irs786had123:irshad@cluster0.82yikc9.mongodb.net/server-practice?retryWrites=true&w=majority&appName=Cluster0"
@@ -18,6 +19,7 @@ app.use(express.urlencoded({ extended: false }))
 
 app.use(User)
 app.use(Book)
+app.use(Page)
 
 
 

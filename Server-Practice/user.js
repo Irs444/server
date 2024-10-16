@@ -1,6 +1,6 @@
 const mongoose = require("mongoose")
 const express = require("express")
-const { bookSchemaModel } = require("./book")
+const { bookSchemaModel } = require("./department")
 const router = express.Router()
 
 const users = "users"
@@ -33,6 +33,35 @@ router.post("/api/v1/register", (req, res) => {
                 result
             })
         })
+})
+
+// login user API
+router.post("/api/v1/login", async(req, res) => {
+
+    let email = req.body.email
+    let password = req.body.password
+
+    userSchemaModel.findOne(req.body)
+    .then((result) => {
+       if(result){
+        res.status(200).send({
+            success: true,
+            message: "User login successfully.",
+            result
+        })
+       }else{
+        res.status(404).send({
+            success: false,
+            message: "Invalide credentials",
+
+        })
+       }
+    }).catch((err) => {
+        res.status(500).send({
+            success: false,
+            message: "server side error"
+        })
+    })
 })
 
 // get all user API

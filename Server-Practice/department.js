@@ -1,6 +1,5 @@
 const mongoose = require("mongoose")
 const express = require("express")
-const { pageSchemaModel } = require("./designation")
 const router = express.Router()
 
 const departments = "departments"
@@ -21,7 +20,7 @@ router.post("/api/v1/create-department", (req, res) => {
     let departmentName = req.body.departmentName
     
 
-    bookSchemaModel({
+    departmentSchemaModel({
        departmentName
     }).save()
     .then((resullt) => {
